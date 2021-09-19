@@ -1,0 +1,367 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: PT Sans Narrow;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Lobster Two;
+}
+a, a:hover{
+  text-decoration: none;
+}
+/**/
+/*global css code starts here*/
+.col-4{
+  width: 33.33%;
+  float: left;
+}
+.col-6{
+  width: 50%;
+  float: left;
+}
+.col-12{
+  width: 100%;
+  float: left;
+}
+/*global css code ends here*/
+
+/*header section code starts here*/
+.header-section{
+  width: 100%;
+  float: left;
+}
+/*left-*/
+.left-head{
+  width: 100%;
+  float: left;
+  background-color: #015761;
+  height: 600px;
+}
+.start{
+  margin-top: 40px;
+  padding-left: 40px;
+  font-size: 40px;
+}
+.left-head .start a{
+  font-size: 50px;
+  font-weight: 700;
+  color: #F7DC4F;
+  text-transform: capitalize;
+  transition: 1s;
+}
+.left-head .start a:hover{
+  color: #C28BE9;
+}
+.menu{
+  width: 100%;
+  float: left;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+.menu li{
+  display: inline-block;
+  list-style-type: none;
+}
+.menu li a{
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #ffff;
+  margin-right: 10px;
+  transition: 1s;
+}
+.menu li a:hover{
+  color: #F7DC4F;
+}
+.left-head h3{
+  font-size: 40px;
+  padding-top: 100px;
+  padding-left: 300px;
+  color: #F7DC4F;
+}
+.left-head .name{
+  font-size: 65px;
+  font-weight: 700;
+  padding-left: 300px;
+  color: #ffff;
+}
+.left-head p{
+  font-size: 14px;
+  color: #ffff;
+  padding-left: 300px;
+  margin-bottom: 50px;
+}
+/*left code ends here*/
+
+/*right code starts here*/
+.right-head{
+  width: 100%;
+  float: left;
+}
+.right-head img{
+  width: 100%;
+  height: 600px;
+}
+.right-menu{
+  width: 100%;
+  float: left;
+}
+.right-menu img{
+  width: 150px;
+  height: 50px;
+  transition: 1s;
+}
+.right-menu .fs{
+  position: fixed;
+  top: 10%;
+  right: -105px;
+}
+.right-menu .ts{
+  position: fixed;
+  top: 17%;
+  right: -105px;
+}
+.right-menu .is{
+  position: fixed;
+  top: 24%;
+  right: -105px;
+}
+.right-menu .ps{
+  position: fixed;
+  top: 31%;
+  right: -105px;
+}
+.right-menu img:hover{
+  right: -1px;
+}
+/*right code ends here*/
+/*header section code ends here*/
+
+/*about section code starts here*/
+.about-section{
+  width: 100%;
+  float: left;
+  background-color: #F1F0F0;
+}
+.about-section .about{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.about h1{
+  margin: 55px 0px 25px 0px;
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.about p{
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.about button{
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  background: #F3DA50;
+  text-transform: capitalize;
+  transition: 1s;
+}
+.about button:hover{
+  background: #B1803E;
+  cursor: pointer;
+}
+/*about section code ends here*/
+
+/*video section code starts here*/
+.video-head{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.video-head h1{
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 100px 0px;
+  color: #015761;
+}
+.main{
+  width: 100%;
+  height: 500px;
+  float: left;
+  background-image: url("../images/hf/jeep2.jpg");
+}
+.main-text{
+  padding-top: 150px;
+  padding-left: 750px;
+}
+.main .fa{
+  font-size: 40px;
+  color: #ffff;
+}
+.main a{
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #ffff;
+  transition: 1s;
+}
+.main a:hover{
+  color: #E60023;
+}
+/*video section code ends here*/
+
+/*photos section code starts here*/
+.photos{
+  width: 100%;
+  float: left;
+}
+.photos .caption{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.caption h1{
+  font-size: 70px;
+  font-weight: 700;
+  padding: 100px 0px;
+  color: #015761;
+}
+/*photos section code ends here*/
+
+/*thumb-one code starts here*/
+.thumb-one{
+  width: 100%;
+  float: left;
+  padding-bottom: 50px;
+}
+.first-space{
+  width: 1100px;
+  margin: 0 auto;
+}
+.inner-content{
+  width: 90%;
+  margin: 0px 15px;
+}
+.inner-content img{
+  width: 100%;
+  height: 300px;
+}
+/*thumb one ends here*/
+
+/*thumb two starts here*/
+.thumb-two{
+  width: 100%;
+  float: left;
+  padding-bottom: 50px;
+}
+.second-space{
+  width: 1300px;
+  margin: 0 auto;
+}
+.inner-content{
+  width: 90%;
+  margin: 0px 15px;
+}
+.inner-content img{
+  width: 100%;
+  height: 300px;
+}
+/*thumb two ends here*/
+
+/*last section starts here*/
+.last{
+  width: 100%;
+  float: left;
+  margin: 80px 0px;
+  padding-top: 30px;
+}
+.last-pic img{
+  width: 100%;
+  height: 800px;
+}
+.end{
+  background: #015761;
+  height: 800px;
+}
+.last-text{
+  width: 40%;
+  margin: 0px auto;
+  padding-top: 75px;
+}
+.last-text h1{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #F7DC4F;
+  margin-bottom: 20px;
+}
+.last-text h4{
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffff;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.last-text span{
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffff;
+  text-transform: capitalize;
+}
+.last-text p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffff;
+  text-transform: capitalize;
+}
+.icon-last{
+  width: 100%;
+  float: left;
+}
+.icon-last li{
+  display: inline-block;
+  list-style-type: none;
+}
+.icon-last li a .fa{
+  font-size: 25px;
+  color: #ffff;
+  margin-right: 20px;
+  transition: 1s;
+}
+.icon-last li a .fa-facebook:hover{
+  color: #0899F9;
+}
+.icon-last li a .fa-twitter:hover{
+  color: #28A9E2;
+}
+.icon-last li a .fa-instagram:hover{
+  color: #C134A8;
+}
+.icon-last li a .fa-youtube:hover{
+  color: #FF0000;
+}
+/*last section ends here*/
+
+/*footer section code starts here*/
+.copy{
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.copy p{
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #999999;
+}
+.copy p a{
+  text-decoration: underline;
+  color: #999999;
+}
+/*footer section code ends here*/
